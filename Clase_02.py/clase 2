@@ -1,0 +1,17 @@
+lista1 = ["a", "b", "c", "d", "e", "f"]
+
+lista1[:3]= "A"
+
+print(lista1)
+
+ #lista 2
+
+lista2 = [2, 4, 6, 7, 8, 9, 1, 3, 4, 6, 0, 7, 1, 5, 6, 1, 7, 4, 1, 4]
+
+lista2.pop()
+
+count = lista2.count(1)
+
+print(lista2, count)
+
+ #comandos de listas en pythoon (para buscar comandos en google)

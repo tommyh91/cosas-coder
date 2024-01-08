@@ -1,0 +1,15 @@
+numeros2 = (8, 15, 4, 39, 5, 89, 87, 19, 7, -755, 88, 7, 2, 11, 15, 9, 355)
+
+print(numeros2[-1])  #1
+
+print(len(numeros2))  #2
+
+print(numeros2.index(87))  #3
+
+#Print(numeros2(-3:)  #4
+      
+    #5
+
+print(numeros2[8])
+
+print(numeros2.count(7))

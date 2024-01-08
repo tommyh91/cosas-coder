@@ -1,0 +1,35 @@
+Cadena_1 = "versatil"
+Cadena_2 = "python"
+Cadena_3 = "es un lenguaje"
+Cadena_4 = "de programacion"
+
+texto = Cadena_2, Cadena_3, Cadena_4, Cadena_1
+print(texto)
+
+
+# String -- cadena de caracteres
+
+
+palabra = "hola"
+
+texto_size = len(texto)  #cantidad de caracteres del texto
+
+print(texto_size)
+
+print(texto[1])  # el primer carater es el "0"
+
+
+
+
+
+# Desafio slicing
+
+cadena = "acitametam ,5.8 ,otipep ordep"
+
+cadena_volteada = cadena[::-1] # volteo el str y lo almaceno en una variable nueva
+
+print(cadena_volteada) #voleando STR
+
+info1 = cadena_volteada[0:12] #Pedro pepito ([inicio + final +1]) para que sea completo es ([0:])
+
+print(info1)

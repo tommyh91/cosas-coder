@@ -1,0 +1,4 @@
+pais = input("Ingrese su pais: ")
+edad = int(input("Ingrese su edad: "))
+
+print(pais == Arg and edad >=18)

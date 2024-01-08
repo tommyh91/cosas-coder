@@ -1,0 +1,14 @@
+# Calculador de promedios de puntos
+print("Calculador de promedio de partidos actuales")
+partidos_ganados = int(input("Ingrese el numero de partidos partidos ganados: "))
+partidos_perdidos = int(input("Ingrese el numero de partidos perdidos: "))
+partidos_empatados = int(input("Ingrese el numero de partidos empatados: "))
+
+# Calculo
+total_puntos_ganados = partidos_ganados * 3
+total_puntos_empatados = partidos_empatados * 1
+total_puntos_perdidos = partidos_perdidos * 0
+
+# Promedio
+resultado = ((total_puntos_empatados + total_puntos_ganados + total_puntos_perdidos) / (partidos_empatados + partidos_ganados + partidos_perdidos))
+print("promedio de puntos ganados por partido", resultado)

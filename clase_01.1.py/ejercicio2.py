@@ -1,0 +1,1 @@
+print('algo algo "texto" algo algo algo')

@@ -1,0 +1,25 @@
+lista1 = [1, 2, 3, 4, 5]
+
+lista2 = ["a", "b", "c", "d"]
+
+lista1.append(456789)
+lista1.append("hola mundo")
+
+print(lista1)
+
+lista2.append("Hola y adios")
+lista2.append(55555)
+
+print(lista2)
+
+lista3 = lista1[0:-1]
+
+print(lista3)
+
+lista4 = lista2[1:-1]
+
+print(lista4)
+
+lista5 = lista4 + lista3
+
+print(lista5)
